@@ -4,3 +4,5 @@ logs/*
 !logs/.gitkeep
 
 hiereason_config.yaml
+.idea/
+env.py

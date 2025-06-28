@@ -25,7 +25,7 @@ Then, copy the `hiereason_config_template.yaml` and rename it to `hiereason_conf
 Scripts that can run experiments are stored as `hiereason/run_*.py`. For example, to run SymBa on the ProofWriter-dep5 dataset, run the following script:
 
 ```sh
-python hiereason/run_symba.py --dataset proofwriter_dep5
+python hiereason/run_symba.py --dataset proofwriter_dep5 --model openai
 ```
 
 Values for the `--dataset` argument are the folder names in `data/`, which are:
